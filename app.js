@@ -649,3 +649,16 @@ excesting string not change, New string return*/
 //     a + b
 // }
 // setInterval(sum, 3000, 10, 4);
+
+// CREATE A TIMER WITH SetInterval and ClearInterval Methods:
+
+// function mySetInterval() {
+//     const date = new Date();
+//     document.getElementById("time").innerHTML = date.toLocaleTimeString();
+// }
+// // mySetInterval()
+// const myInterval = setInterval(mySetInterval, 1000);
+
+// function stopTimer() {
+//   clearInterval(myInterval);
+// }
