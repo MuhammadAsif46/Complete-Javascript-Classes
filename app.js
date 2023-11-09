@@ -573,3 +573,16 @@ excesting string not change, New string return*/
 // console.log(first.dataset);         //dataset means : me custom generate attribute
 // console.log(first.dataset.game);    //dataset-name means : me custom generate attribute getting
 // console.log(first.dataset.mobile);  //dataset-name means : me custom generate attribute getting
+
+
+// Topic 04: | Insertion Methods in JS
+
+// let a = document.getElementsByTagName("div")[0];
+
+// let div = document.createElement("div");
+// div.innerHTML = "<h1>hello world</h1>";
+// a.append(div);           // div ky ander index[1] py div banayega
+// a.prepend(div);          // div ky ander index[0] py div banayega
+// a.before(div);           // body ky ander index[0] py div banayega
+// a.after(div);            // body ky ander index[1] py div banayega
+// a.replaceWith(div);      // body ky ander div ko replace krdega
