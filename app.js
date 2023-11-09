@@ -559,3 +559,17 @@ excesting string not change, New string return*/
 
 // console.log(document.body.textContent);
 // head.hidden = false;
+
+
+// Topic 03: | Attribute Methods in JS
+
+// let first = document.getElementById("first");
+// let a = first.getAttribute("class");      //get means : existing attribute getting 
+// console.log(a);
+// console.log(first.hasAttribute("class")); //has means : attribute exist or not
+// console.log(first.hasAttribute("style")); //has means : attribute exist or not
+// console.log(first.setAttribute("value","special")); //set means : attribute name & value sets
+// console.log(first.removeAttribute("value")); //remove means : attribute remove 
+// console.log(first.dataset);         //dataset means : me custom generate attribute
+// console.log(first.dataset.game);    //dataset-name means : me custom generate attribute getting
+// console.log(first.dataset.mobile);  //dataset-name means : me custom generate attribute getting
