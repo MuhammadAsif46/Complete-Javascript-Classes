@@ -586,3 +586,29 @@ excesting string not change, New string return*/
 // a.before(div);           // body ky ander index[0] py div banayega
 // a.after(div);            // body ky ander index[1] py div banayega
 // a.replaceWith(div);      // body ky ander div ko replace krdega
+
+
+// Topic 05: | InsertAdjasentHTML/Text/Element in JS
+
+// let first = document.getElementById("first");
+// first.insertAdjacentHTML("beforebegin","<div class='text'> beforeBegin </div>" )
+// first.insertAdjacentHTML("beforeend","<div class='text'> beforeend </div>" )
+// first.insertAdjacentHTML("afterbegin","<div class='text'> afterbegin </div>" )
+// first.insertAdjacentHTML("afterend","<div class='text'> afterend </div>" )
+// first.remove();
+
+
+// Topic 06: | ClassName and ClassList in JS
+
+
+// first.classList : OUTPUT
+// DOMTokenList(2) ['red-tshirt', 'black-paint', value: 'red-tshirt black-paint']
+
+// first.className : OUTPUT
+// 'red-tshirt black-paint'
+
+// first.classList.add("black-paint") : OUTPUT (undefined)
+// first.classList.remove("black-paint") : OUTPUT (undefined)
+// first.classList.contains("black-paint") : OUTPUT (false)
+// first.classList.toggle("black-paint") : OUTPUT (true)
+// first.classList.toggle("black-paint") : OUTPUT (false)
