@@ -612,3 +612,40 @@ excesting string not change, New string return*/
 // first.classList.contains("black-paint") : OUTPUT (false)
 // first.classList.toggle("black-paint") : OUTPUT (true)
 // first.classList.toggle("black-paint") : OUTPUT (false)
+
+
+// Topic 07: | setTimeOut and setInterval in JS
+
+// 1. setTimeOut | One Time Exicute
+// 2. setInterval | running continously Time Exicute
+
+//EXAMPLE NO : 01 
+
+// alert("hello world");
+
+// let a = setTimeout(()=>{
+//     alert("i am setTimeOut in 3 seconds")
+// },3000)
+// console.log(a);
+
+// let b = prompt("Do you want the run setTimeOut ?");
+// if("n" === b){
+//     clearTimeout(a)
+// }
+// console.log(a);
+
+//EXAMPLE NO : 02
+
+// const sum = (a, b) => {
+//     alert("setTimeOut is running.... : " + (a + b));
+//     a + b
+// }
+// setTimeout(sum, 2000, 5, 4);
+
+// Quik Task SetInterval:
+
+// const sum = (a, b) => {
+//     alert("setInterval is running.... : " + (a + b));
+//     a + b
+// }
+// setInterval(sum, 3000, 10, 4);
