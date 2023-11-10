@@ -662,3 +662,14 @@ excesting string not change, New string return*/
 // function stopTimer() {
 //   clearInterval(myInterval);
 // }
+
+
+// Topic 08: | Browser Event in JS
+
+let a = document.getElementsByClassName("container")[0]
+console.log(a);
+
+a.onclick = ()=>{
+    let b = document.getElementsByClassName("container")[0].firstElementChild
+    console.log(b);
+}
