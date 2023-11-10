@@ -666,10 +666,31 @@ excesting string not change, New string return*/
 
 // Topic 08: | Browser Event in JS
 
-let a = document.getElementsByClassName("container")[0]
-console.log(a);
+// let a = document.getElementsByClassName("container")[0]
+// console.log(a);
 
-a.onclick = ()=>{
-    let b = document.getElementsByClassName("container")[0].firstElementChild
-    console.log(b);
-}
+// a.onclick = ()=>{
+//     let b = document.getElementsByClassName("container")[0].firstElementChild
+//     console.log(b);
+// }
+
+
+// Topic 09: | addEventListener and removeEventListener Event in JS
+
+// let b = +prompt("enter a number..");
+
+// let x =  function(e){
+//     alert("hello world1")
+// }
+// let y =  function(e){
+//     alert("hello world2");
+// }
+
+// let a = document.getElementById("btn");
+
+// a.addEventListener("click",x);
+// a.addEventListener("click",y);
+
+// if(b === 2){
+//     a.removeEventListener("click",y);
+// }
