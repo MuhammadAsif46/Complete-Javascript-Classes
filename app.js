@@ -694,3 +694,26 @@ excesting string not change, New string return*/
 // if(b === 2){
 //     a.removeEventListener("click",y);
 // }
+
+
+// chapter NO : 09 | callBacks,promises an dasync/await in JS:
+
+
+// Topic 01: | Syncronus and Asyncronus in JS
+
+// Syncronus programming : Line By Line Excite and finish one by one
+
+// let a = prompt("Enter your name?")
+// let b = prompt("Enter your age?")
+// let c = prompt("Enter your fav color?")
+// console.log(a + "is" + b + "and is fav color " + c);
+
+
+// Asyncronus programming : tayyar line by line hota excite bad me hota
+
+// console.log("start");
+// setTimeout(function(){
+//     console.log("i am asif");
+// },3000)
+// console.log("end");
+
