@@ -717,3 +717,27 @@ excesting string not change, New string return*/
 // },3000)
 // console.log("end");
 
+
+// Topic 02: | callBack function in JS
+
+// function loading(src, callback){
+//     let script = document.createElement("script");
+//     script.src = src;
+//     script.onload = function(){
+//         console.log("loading script with src: " + src);
+//         callback(src);
+//     }
+//     document.body.appendChild(script);
+// }
+
+// function hello(src) {
+//     alert("hello user : "+ src);
+// }
+
+
+// function goodMorning() {
+//     console.log("hello src ");
+// }
+
+// loading("https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js", hello);
+
