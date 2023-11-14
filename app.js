@@ -888,3 +888,23 @@ excesting string not change, New string return*/
 // }
 
 // console.log("this is a valid age");
+
+
+// Topic 08: | finally clause in JS:
+
+// const foo = ()=>{
+//     try {
+//         let a = 0
+//         // console.log(b);
+//         console.log("program run successfully");
+//         return ;
+//     } catch (error) {
+//         console.log("this is an error");
+//         console.log(p);
+//     }
+//     finally {   //  cleanup | run all cases
+//         console.log("finally clause run");
+//     }
+// }
+
+// foo()
