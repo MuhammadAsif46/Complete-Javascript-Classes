@@ -736,24 +736,24 @@ excesting string not change, New string return*/
 
 // Topic 04: | Promise API in JS:
 
-let p1 = new Promise((resolve, reject) => {
-  setTimeout(() => {
-    resolve("value 1");
-  }, 1000);
-});
+// let p1 = new Promise((resolve, reject) => {
+//   setTimeout(() => {
+//     resolve("value 1");
+//   }, 1000);
+// });
 
-let p2 = new Promise((resolve, reject) => {
-  setTimeout(() => {
-    // resolve("value 2");
-    reject(new Error("Error"))
-  }, 3000);
-});
+// let p2 = new Promise((resolve, reject) => {
+//   setTimeout(() => {
+//     // resolve("value 2");
+//     reject(new Error("Error"))
+//   }, 3000);
+// });
 
-let p3 = new Promise((resolve, reject) => {
-  setTimeout(() => {
-    resolve("value 3");
-  }, 6000);
-});
+// let p3 = new Promise((resolve, reject) => {
+//   setTimeout(() => {
+//     resolve("value 3");
+//   }, 6000);
+// });
 
 // p1.then((value)=>{
 //     console.log(value);
@@ -778,7 +778,25 @@ let p3 = new Promise((resolve, reject) => {
 // })
 
 // 3.promise-race:
-// let promise_all = Promise.allSettled([p1, p2, p3])
+// let promise_all = Promise.race([p1, p2, p3])
+// promise_all.then((value)=>{
+//     console.log(value);
+// })
+
+// 4.promise-any:
+// let promise_all = Promise.any([p1, p2, p3])
+// promise_all.then((value)=>{
+//     console.log(value);
+// })
+
+// 5.promise-resolve:
+// let promise_all = Promise.resolve(7)
+// promise_all.then((value)=>{
+//     console.log(value);
+// })
+
+// 6.promise-reject:
+// let promise_all = Promise.reject(new Error("hey"))
 // promise_all.then((value)=>{
 //     console.log(value);
 // })
