@@ -777,25 +777,25 @@ excesting string not change, New string return*/
 //     console.log(value);
 // })
 
-// 3.promise-race:
+// 3.promise-race: // race all result and first will excite then return result
 // let promise_all = Promise.race([p1, p2, p3])
 // promise_all.then((value)=>{
 //     console.log(value);
 // })
 
-// 4.promise-any:
+// 4.promise-any:   // all result checking any one error remaining result return
 // let promise_all = Promise.any([p1, p2, p3])
 // promise_all.then((value)=>{
 //     console.log(value);
 // })
 
-// 5.promise-resolve:
+// 5.promise-resolve:  //returns resolve promises
 // let promise_all = Promise.resolve(7)
 // promise_all.then((value)=>{
 //     console.log(value);
 // })
 
-// 6.promise-reject:
+// 6.promise-reject:    // returns rejects promises
 // let promise_all = Promise.reject(new Error("hey"))
 // promise_all.then((value)=>{
 //     console.log(value);
