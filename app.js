@@ -741,3 +741,21 @@ excesting string not change, New string return*/
 
 // loading("https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js", hello);
 
+// Topic 03: | Promises | .then() & .catch() in JS:
+
+// let p = new Promise ((resolve, reject) => {
+//     alert("hey I am  not resolved")
+//     setTimeout(()=>{
+//         resolve(1);
+//     },3000);
+// })
+
+// p.then(()=>{
+//     console.log("congrates this promiose is resolved");
+// })
+
+// p.then(()=>{
+//     console.log("Hurray");
+// }).catch((error)=>{
+//     console.log(error);
+// })
