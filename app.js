@@ -800,3 +800,36 @@ excesting string not change, New string return*/
 // promise_all.then((value)=>{
 //     console.log(value);
 // })
+
+
+
+// Topic 05: | async|await in JS:
+
+// async function always return a promise
+
+// const hey = async ()=>{
+//     return 3;
+// }
+// // hey().then(alert)
+// hey().then((v)=>{
+//     alert(v)
+// })
+
+
+// function resolveAfter2Seconds() {
+//     return new Promise((resolve) => {
+//       setTimeout(() => {
+//         resolve('resolved');
+//       }, 2000);
+//     });
+//   }
+  
+//   async function asyncCall() {
+//     console.log('calling');
+//     const result = await resolveAfter2Seconds();
+//     console.log(result);
+//     // Expected output: "resolved"
+//   }
+  
+//   asyncCall();
+  
