@@ -833,3 +833,42 @@ excesting string not change, New string return*/
   
 //   asyncCall();
   
+
+// Topic 06: | try | catch in JS:
+
+setTimeout(()=>{
+    console.log("Hacking wifi..... please wait....");
+},1000);
+
+// try catch run synchronously:
+try {
+    console.log(fahad);
+    
+} catch (error) {
+    // console.log(error);
+    console.log("fahad not found");
+}
+
+// try catch not run asynchronously:
+// try {
+//     setTimeout(()=>{
+//         console.log(fahad);
+
+//     },100)
+    
+// } catch (error) {
+//     // console.log(error);
+//     console.log("fahad not found");
+// }
+
+setTimeout(()=>{
+    console.log("Fetching username and password..... please wait....");
+},2000);
+
+setTimeout(()=>{
+    console.log("Hacking fahad facebook id..... please wait....");
+},3000);
+
+setTimeout(()=>{
+    console.log("username and password of fahad (00134834983) fetched..... please wait....");
+},4000);
