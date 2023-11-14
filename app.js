@@ -836,18 +836,18 @@ excesting string not change, New string return*/
 
 // Topic 06: | try | catch in JS:
 
-setTimeout(()=>{
-    console.log("Hacking wifi..... please wait....");
-},1000);
+// setTimeout(()=>{
+//     console.log("Hacking wifi..... please wait....");
+// },1000);
 
-// try catch run synchronously:
-try {
-    console.log(fahad);
+// // try catch run synchronously:
+// try {
+//     console.log(fahad);
     
-} catch (error) {
-    // console.log(error);
-    console.log("fahad not found");
-}
+// } catch (error) {
+//     // console.log(error);
+//     console.log("fahad not found");
+// }
 
 // try catch not run asynchronously:
 // try {
@@ -861,14 +861,30 @@ try {
 //     console.log("fahad not found");
 // }
 
-setTimeout(()=>{
-    console.log("Fetching username and password..... please wait....");
-},2000);
+// setTimeout(()=>{
+//     console.log("Fetching username and password..... please wait....");
+// },2000);
 
-setTimeout(()=>{
-    console.log("Hacking fahad facebook id..... please wait....");
-},3000);
+// setTimeout(()=>{
+//     console.log("Hacking fahad facebook id..... please wait....");
+// },3000);
 
-setTimeout(()=>{
-    console.log("username and password of fahad (00134834983) fetched..... please wait....");
-},4000);
+// setTimeout(()=>{
+//     console.log("username and password of fahad (00134834983) fetched..... please wait....");
+// },4000);
+
+
+
+// Topic 07: | Error object | custom Error in JS:
+
+// try {
+//     let age = prompt("enter your age?");
+//     if(age > 150){
+//         throw new Error("this is not  a valid age");
+//     }
+// } catch (error) {
+//     console.log(error.name);   
+//     console.log(error.message);   
+// }
+
+// console.log("this is a valid age");
