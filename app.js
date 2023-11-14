@@ -21,7 +21,7 @@
 // CONST :          // constant can not updated and changed
 // const num = 23;
 
-// LET :            // let variable can changed and updated 
+// LET :            // let variable can changed and updated
 // let a = 45
 
 // TOPIC: 03 | primitive dataTypes in JS and objects
@@ -37,14 +37,13 @@
 // console.log(a,b,c,d,e,f,g);
 // console.log(typeof d);
 
-
 //  OBJECTS:               // Non-Primitive data types in JS
 
 // const items = {
 //     a: "hello",
 //     b: 123,
-//     c: null, 
-//     d: true, 
+//     c: null,
+//     d: true,
 // }
 // console.log(items.a);
 // console.log(items.b);
@@ -61,8 +60,8 @@
 // console.log("a - b = ", a - b); // 9
 // console.log("a / b = ", a / b); // 4
 // console.log("a * b = ", a * b); // 36
-// console.log("a % b = ", a % b); // 0 
-// console.log("a ** b = ", a ** b); // 1728 
+// console.log("a % b = ", a % b); // 0
+// console.log("a ** b = ", a ** b); // 1728
 // console.log("a++ = ", a++); // 12
 // console.log("a-- = ", a--); // 13
 // console.log("++a = ", ++a); // 13
@@ -92,7 +91,7 @@
 // console.log("comp1 !== comp2 ", comp1 !== comp2); //true
 // console.log("comp1 > comp2 ", comp1 > comp2); //false
 // console.log("comp1 < comp2 ", comp1 < comp2); //true
-// console.log("comp1 >= comp2 ", comp1 >= comp2); //false 
+// console.log("comp1 >= comp2 ", comp1 >= comp2); //false
 // console.log("comp1 <= comp2 ", comp1 <= comp2); //true
 
 // Topic 04: | logical  0perators in JS
@@ -103,7 +102,6 @@
 // console.log( a < b || a===5);
 // console.log(!false);
 // console.log(!true);
-
 
 // Topic 05: | If, else.if, else statements in JS and Ternary operator:
 
@@ -131,7 +129,7 @@
 //         console.log("your age is ", age);
 //         break;
 //     case 15:
-//         console.log("your age is ", age); 
+//         console.log("your age is ", age);
 //         break;
 //     case 19:
 //         console.log("your age is ", age);
@@ -176,7 +174,6 @@
 
 // Topic 03: | For of Loops in JS
 
-
 // for (let i of "world") {
 //     console.log(i);
 // }
@@ -190,7 +187,6 @@
 //     console.log(i);
 //     i++;
 // }
-
 
 // Topic 05: | Do While Loops in JS
 /*do while loop kam sy kam ek bar excite hota hai 
@@ -228,7 +224,6 @@ or condition bad me check krta hai.*/
 // let res = add(2,4);
 // console.log(res);
 
-
 // CHAPTER NO : 04 | Introduction to Strings:
 
 // Topic 01: | stings ("", '') in JS
@@ -257,37 +252,36 @@ or condition bad me check krta hai.*/
 /* strings are immutable , strings can not be changed, 
 excesting string not change, New string return*/
 
-// STRINGS METHODS : check Typeof 
+// STRINGS METHODS : check Typeof
 
 // properties:
 
-    // : length
+// : length
 
 // Methods:
 
-    // - toUpperCase()
-    // - toLowerCase()
-    // - Slice()
-    // - replace()
-    // - concat()           //first string koin second string
-    // - trim()
-    // - charAt()
-    // - includes()
-
+// - toUpperCase()
+// - toLowerCase()
+// - Slice()
+// - replace()
+// - concat()           //first string koin second string
+// - trim()
+// - charAt()
+// - includes()
 
 // concat();
 
 // let name1 = "asif"
 // let name2 = "ahmed"
 
-// console.log(name1.concat(" is a friend of ", name2, " Ok")); 
+// console.log(name1.concat(" is a friend of ", name2, " Ok"));
 
 // trim();
 
 // let name1 = "asif"
-// let name2 = "     ahmed     " 
-// console.log(name1.concat(" is a friend of ", name2, " Ok")); 
-// console.log(name1.concat(" is a friend of ", name2.trim(), " Ok")); 
+// let name2 = "     ahmed     "
+// console.log(name1.concat(" is a friend of ", name2, " Ok"));
+// console.log(name1.concat(" is a friend of ", name2.trim(), " Ok"));
 
 // includes();
 
@@ -319,11 +313,11 @@ excesting string not change, New string return*/
 // console.log(arr.length);
 // console.log(typeOf arr.length);
 
-// TAKE QUIZ: 
+// TAKE QUIZ:
 // let arr = [12, 13, 14, 15, true, "hello"];
 
 // for (let i = 0; i < arr.length; i++) {
-//     console.log(arr[i]); 
+//     console.log(arr[i]);
 // }
 
 // Topic 02: | Array methods in JS
@@ -378,10 +372,10 @@ excesting string not change, New string return*/
 
 // Sort(compare);
 // let compare = (a, b) => {
-//     return a - b 
+//     return a - b
 // }
 // let compare = (a, b) => {
-//     return b - a 
+//     return b - a
 // }
 // let num1 = [11,222,53,4,75,96,7,8];
 // num1.sort(compare);
@@ -459,14 +453,13 @@ excesting string not change, New string return*/
 // for(let i in num)
 // console.log(i);
 
-
 // CHAPTER NO : 06 | Javascript in Browser:
 
 // Topic 01: | Console in JS
 
 // console.time("forLoop")
 // for (let i = 0; i < 500; i++) {
-//     console.log(200);  
+//     console.log(200);
 // }
 // console.timeEnd("forLoop")
 
@@ -476,7 +469,7 @@ excesting string not change, New string return*/
 // let i=0;
 // while (i < 500) {
 //  console.log(200);
-//  i++   
+//  i++
 // }
 // console.timeEnd("whileLoop")
 
@@ -496,9 +489,8 @@ excesting string not change, New string return*/
 
 // Topic 03: | DOM,BOM and Windows in JS
 
-// window.console.log (window) 
+// window.console.log (window)
 // document.write("enter a name")
-
 
 // chapter NO : 07 | Walking the dom:
 
@@ -510,9 +502,7 @@ excesting string not change, New string return*/
 // let arr = Array.from(document.body.childNodes);
 // console.log(arr);
 
-
 // Topic 02: | parent & siblings of an element in JS
-
 
 // Topic 03: | searching the Dom in JS
 
@@ -538,8 +528,6 @@ excesting string not change, New string return*/
 // let byName = document.getElementsByName("search")
 // console.log(byName);
 
-
-
 // chapter NO : 08 | Event and Other dom properties:
 
 // Topic 01: | TagName/NodeName WITH console.log/.dir in JS
@@ -551,7 +539,6 @@ excesting string not change, New string return*/
 // console.log(document.body.firstChild.nodeName);
 // console.log(document.body.firstElementChild.nodeName);
 
-
 // Topic 02: | InnerHtml / OuterHtml in JS
 
 // head.innerHtml = <b> i am hello </b>
@@ -560,20 +547,18 @@ excesting string not change, New string return*/
 // console.log(document.body.textContent);
 // head.hidden = false;
 
-
 // Topic 03: | Attribute Methods in JS
 
 // let first = document.getElementById("first");
-// let a = first.getAttribute("class");      //get means : existing attribute getting 
+// let a = first.getAttribute("class");      //get means : existing attribute getting
 // console.log(a);
 // console.log(first.hasAttribute("class")); //has means : attribute exist or not
 // console.log(first.hasAttribute("style")); //has means : attribute exist or not
 // console.log(first.setAttribute("value","special")); //set means : attribute name & value sets
-// console.log(first.removeAttribute("value")); //remove means : attribute remove 
+// console.log(first.removeAttribute("value")); //remove means : attribute remove
 // console.log(first.dataset);         //dataset means : me custom generate attribute
 // console.log(first.dataset.game);    //dataset-name means : me custom generate attribute getting
 // console.log(first.dataset.mobile);  //dataset-name means : me custom generate attribute getting
-
 
 // Topic 04: | Insertion Methods in JS
 
@@ -587,7 +572,6 @@ excesting string not change, New string return*/
 // a.after(div);            // body ky ander index[1] py div banayega
 // a.replaceWith(div);      // body ky ander div ko replace krdega
 
-
 // Topic 05: | InsertAdjasentHTML/Text/Element in JS
 
 // let first = document.getElementById("first");
@@ -597,9 +581,7 @@ excesting string not change, New string return*/
 // first.insertAdjacentHTML("afterend","<div class='text'> afterend </div>" )
 // first.remove();
 
-
 // Topic 06: | ClassName and ClassList in JS
-
 
 // first.classList : OUTPUT
 // DOMTokenList(2) ['red-tshirt', 'black-paint', value: 'red-tshirt black-paint']
@@ -613,13 +595,12 @@ excesting string not change, New string return*/
 // first.classList.toggle("black-paint") : OUTPUT (true)
 // first.classList.toggle("black-paint") : OUTPUT (false)
 
-
 // Topic 07: | setTimeOut and setInterval in JS
 
 // 1. setTimeOut | One Time Exicute
 // 2. setInterval | running continously Time Exicute
 
-//EXAMPLE NO : 01 
+//EXAMPLE NO : 01
 
 // alert("hello world");
 
@@ -663,7 +644,6 @@ excesting string not change, New string return*/
 //   clearInterval(myInterval);
 // }
 
-
 // Topic 08: | Browser Event in JS
 
 // let a = document.getElementsByClassName("container")[0]
@@ -673,7 +653,6 @@ excesting string not change, New string return*/
 //     let b = document.getElementsByClassName("container")[0].firstElementChild
 //     console.log(b);
 // }
-
 
 // Topic 09: | addEventListener and removeEventListener Event in JS
 
@@ -695,9 +674,7 @@ excesting string not change, New string return*/
 //     a.removeEventListener("click",y);
 // }
 
-
 // chapter NO : 09 | callBacks,promises an dasync/await in JS:
-
 
 // Topic 01: | Syncronus and Asyncronus in JS
 
@@ -708,7 +685,6 @@ excesting string not change, New string return*/
 // let c = prompt("Enter your fav color?")
 // console.log(a + "is" + b + "and is fav color " + c);
 
-
 // Asyncronus programming : tayyar line by line hota excite bad me hota
 
 // console.log("start");
@@ -716,7 +692,6 @@ excesting string not change, New string return*/
 //     console.log("i am asif");
 // },3000)
 // console.log("end");
-
 
 // Topic 02: | callBack function in JS
 
@@ -733,7 +708,6 @@ excesting string not change, New string return*/
 // function hello(src) {
 //     alert("hello user : "+ src);
 // }
-
 
 // function goodMorning() {
 //     console.log("hello src ");
@@ -758,4 +732,53 @@ excesting string not change, New string return*/
 //     console.log("Hurray");
 // }).catch((error)=>{
 //     console.log(error);
+// })
+
+// Topic 04: | Promise API in JS:
+
+let p1 = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve("value 1");
+  }, 1000);
+});
+
+let p2 = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    // resolve("value 2");
+    reject(new Error("Error"))
+  }, 3000);
+});
+
+let p3 = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve("value 3");
+  }, 6000);
+});
+
+// p1.then((value)=>{
+//     console.log(value);
+// })
+// p2.then((value)=>{
+//     console.log(value);
+// })
+// p3.then((value)=>{
+//     console.log(value);
+// })
+
+// 1.promise-all:
+// let promise_all = Promise.all([p1, p2, p3])
+// promise_all.then((value)=>{
+//     console.log(value);
+// })
+
+// 2.promise-all-settled:
+// let promise_all = Promise.allSettled([p1, p2, p3])
+// promise_all.then((value)=>{
+//     console.log(value);
+// })
+
+// 3.promise-race:
+// let promise_all = Promise.allSettled([p1, p2, p3])
+// promise_all.then((value)=>{
+//     console.log(value);
 // })
