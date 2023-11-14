@@ -765,13 +765,13 @@ excesting string not change, New string return*/
 //     console.log(value);
 // })
 
-// 1.promise-all:
+// 1.promise-all: //wait all result and return an array if any result is failed all result are ignored
 // let promise_all = Promise.all([p1, p2, p3])
 // promise_all.then((value)=>{
 //     console.log(value);
 // })
 
-// 2.promise-all-settled:
+// 2.promise-all-settled: //wait all result and return an array if any result is failed remaining result are returns
 // let promise_all = Promise.allSettled([p1, p2, p3])
 // promise_all.then((value)=>{
 //     console.log(value);
