@@ -960,3 +960,46 @@ excesting string not change, New string return*/
 // document.cookie = "name=hello world1122"
 // document.cookie = "name2=hello world112211"
 // console.log(document.cookie);
+
+
+// Topic 04: | localStorage in JS:
+
+//local storage store data in string format both keys and values:
+// METHODS:
+
+// setItem :
+// localStorage.setItem("name", "Asif");
+
+// let key = prompt("enter key you want to set")
+// let value = prompt("enter value you want to set")
+
+// localStorage.setItem(key, value);
+
+// // getItem :
+// console.log(`the key ${key} is ${localStorage.getItem(key)}`);
+
+// // removeItem :
+// if(key === "red" || key === "blue"){
+//     localStorage.removeItem(key)
+// }
+
+// // clear :
+// if(key == 0){
+//     localStorage.clear()
+// }
+
+// // length:
+// console.log(localStorage.length);
+
+// //key(index-Number):
+
+// localStorage.key(0)
+// 'color'
+// localStorage.key(1)
+// 'hello'
+// localStorage.key(2)
+// 'name'
+// localStorage.key(3)
+// 'a'
+// localStorage.key(4)
+// '1'
