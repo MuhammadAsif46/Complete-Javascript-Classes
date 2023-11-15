@@ -902,8 +902,7 @@ excesting string not change, New string return*/
 
 // foo()
 
-
-// chapter NO : 10 | Network,request and storing data in JS: 
+// chapter NO : 10 | Network,request and storing data in JS:
 // (AJAX): Asynchronous javascript and xml .
 
 // Topic 01: | Fetch API in JS:
@@ -918,9 +917,39 @@ excesting string not change, New string return*/
 //     console.log(value);
 // })
 
-// let res = fetch(url,{
-//     method: "GET",
+// Topic 02: | POST method in JS:
+
+// (json.stringify): javascript object convert to string :
+// (json.parse): valid json script convert to javascript object :
+
+// const createTodo = async () => {
+//   let options = {
+//     method: "POST",
 //     headers: {
-//         "Content-Type": "application/json"
-//     }
-// })
+//       "Content-Type": "application/json",
+//     },
+//     body: JSON.stringify({
+//       title: "Asif",
+//       body: "Bhai",
+//       userId: "11",
+//     }),
+//   };
+
+//   let p = await fetch("https://jsonplaceholder.typicode.com/posts", options);
+//   let response = await p.json();
+//   return response;
+// };
+
+// const getTodo = async (id)=>{
+//     let response = await fetch("https://jsonplaceholder.typicode.com/posts/" + id);
+//     let todo = await response.json();
+//     return todo;
+// }
+
+// const mainFunc = async ()=>{
+//     let todor = await createTodo()
+//     console.log(todor);
+//     console.log(await getTodo(22));
+// }
+
+// mainFunc()
