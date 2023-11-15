@@ -953,3 +953,10 @@ excesting string not change, New string return*/
 // }
 
 // mainFunc()
+
+// Topic 03: | cookies in JS:
+
+// console.log(document.cookie);
+// document.cookie = "name=hello world1122"
+// document.cookie = "name2=hello world112211"
+// console.log(document.cookie);
