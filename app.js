@@ -801,8 +801,6 @@ excesting string not change, New string return*/
 //     console.log(value);
 // })
 
-
-
 // Topic 05: | async|await in JS:
 
 // async function always return a promise
@@ -815,7 +813,6 @@ excesting string not change, New string return*/
 //     alert(v)
 // })
 
-
 // function resolveAfter2Seconds() {
 //     return new Promise((resolve) => {
 //       setTimeout(() => {
@@ -823,16 +820,15 @@ excesting string not change, New string return*/
 //       }, 2000);
 //     });
 //   }
-  
+
 //   async function asyncCall() {
 //     console.log('calling');
 //     const result = await resolveAfter2Seconds();
 //     console.log(result);
 //     // Expected output: "resolved"
 //   }
-  
+
 //   asyncCall();
-  
 
 // Topic 06: | try | catch in JS:
 
@@ -843,7 +839,7 @@ excesting string not change, New string return*/
 // // try catch run synchronously:
 // try {
 //     console.log(fahad);
-    
+
 // } catch (error) {
 //     // console.log(error);
 //     console.log("fahad not found");
@@ -855,7 +851,7 @@ excesting string not change, New string return*/
 //         console.log(fahad);
 
 //     },100)
-    
+
 // } catch (error) {
 //     // console.log(error);
 //     console.log("fahad not found");
@@ -873,8 +869,6 @@ excesting string not change, New string return*/
 //     console.log("username and password of fahad (00134834983) fetched..... please wait....");
 // },4000);
 
-
-
 // Topic 07: | Error object | custom Error in JS:
 
 // try {
@@ -883,12 +877,11 @@ excesting string not change, New string return*/
 //         throw new Error("this is not  a valid age");
 //     }
 // } catch (error) {
-//     console.log(error.name);   
-//     console.log(error.message);   
+//     console.log(error.name);
+//     console.log(error.message);
 // }
 
 // console.log("this is a valid age");
-
 
 // Topic 08: | finally clause in JS:
 
@@ -908,3 +901,26 @@ excesting string not change, New string return*/
 // }
 
 // foo()
+
+
+// chapter NO : 10 | Network,request and storing data in JS: 
+// (AJAX): Asynchronous javascript and xml .
+
+// Topic 01: | Fetch API in JS:
+
+// let p = fetch("https://jsonplaceholder.typicode.com/posts/1")
+// p.then((response)=>{
+//     console.log(response.status);
+//     console.log(response.ok);
+//     console.log(response.headers);
+//     return response.json();
+// }).then((value)=>{
+//     console.log(value);
+// })
+
+// let res = fetch(url,{
+//     method: "GET",
+//     headers: {
+//         "Content-Type": "application/json"
+//     }
+// })
