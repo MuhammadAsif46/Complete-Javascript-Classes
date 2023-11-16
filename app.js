@@ -1003,3 +1003,17 @@ excesting string not change, New string return*/
 // 'a'
 // localStorage.key(4)
 // '1'
+
+
+// Topic 05: | sessionStorage in JS:
+
+
+// sessionStorage.setItem("name", "session");
+// sessionStorage.getItem("name");
+// sessionStorage.removeItem("name");
+// sessionStorage.clear();
+
+// window.onstorage = (e)=>{
+//     alert("changed")
+//     console.log(e);
+// }
