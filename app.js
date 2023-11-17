@@ -1048,3 +1048,36 @@ excesting string not change, New string return*/
 // a.__proto__ = p
 // a.run()
 // console.log(a.name2);
+
+
+// Topic 03: | class and object in JS:
+
+// class RailwayForm{
+//     fill(gName, gNo){
+//         this.name = gName;
+//         this.no = gNo;
+//     }
+//     submit(){
+//         alert(this.name + "your form is submitted" + this.no)
+//     }
+//     cancel(){
+//         alert(this.name +"your form is cancelled" + this.no)
+//     }
+// }
+
+// let form = new RailwayForm();
+// form.submit()
+// form.submit()
+// form.cancel()
+
+// let message1 = new RailwayForm();
+// message1.fill("nano",1122)
+// message2.fill("rehno",2200)
+
+// message1.submit()
+// message1.cancel()
+
+// let message2 = new RailwayForm();
+// message2.submit()
+// message2.cancel()
+
