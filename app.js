@@ -836,7 +836,7 @@ excesting string not change, New string return*/
 //     console.log("Hacking wifi..... please wait....");
 // },1000);
 
-// // try catch run synchronously:
+// try catch run synchronously:
 // try {
 //     console.log(fahad);
 
@@ -1017,3 +1017,34 @@ excesting string not change, New string return*/
 //     alert("changed")
 //     console.log(e);
 // }
+
+
+// chapter NO : 11 | Object Oriented Programming in JS:
+
+// Topic 01: | Oops:- pillars in JS:
+
+//1. abstraction, 
+//2. encapsulation, 
+//3. inheritance, 
+//4. polymorphism.
+
+// Topic 02: | prototype/ __proto__ in JS:
+
+// let a = {
+//     name1: "Asif",
+//     language: "javascript"
+// }
+// console.log(a);
+
+// let p = {
+//     run: ()=>{
+//         alert("run....");
+//     }
+// }
+
+// p.__proto__ = {
+//     name2: "bilal"
+// }
+// a.__proto__ = p
+// a.run()
+// console.log(a.name2);
