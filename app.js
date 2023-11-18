@@ -1116,3 +1116,34 @@ excesting string not change, New string return*/
 // m.run()
 // m.hide();
 // ani.hide(); //this will throw an error
+
+
+// Topic 05: | constructors/ super in JS:
+
+// class Employee{
+//     login(){
+//         console.log("Employee has logged in");
+//     }
+//     logout(){
+//         console.log("Employee has logged out");
+//     }
+//     requestLeaves(leaves){
+//         console.log(`Employee has requested ${leaves} leaves`);
+//     }
+// }
+
+// class Programmer extends Employee{
+//     coffee(x){
+//         console.log(`Programmer has requested ${x} coffees `);
+//     }
+//     requestLeaves(leaves){
+//         super.requestLeaves(3);
+//         console.log("Requesting leaves");
+//         // console.log(`Employee has requested ${leaves + 1} leaves (one extra)`);
+//     }
+// }
+
+// let e = new Programmer();
+
+// e.login();
+// e.requestLeaves(10);
