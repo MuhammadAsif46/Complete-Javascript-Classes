@@ -1081,3 +1081,38 @@ excesting string not change, New string return*/
 // message2.submit()
 // message2.cancel()
 
+
+// Topic 04: | Inheritance in JS:
+
+// class Animal{
+//     constructor(name, color){
+//         this.name = name;
+//         this.color = color;
+//     }
+//     run(){
+//         console.log(this.name + " is barking! " + this.color);
+//     }
+
+//     shout(){
+//         console.log(this.name + " is shouting! " + this.color);
+//     }
+// }
+
+// class Monkey extends Animal{
+//     bananaEat(){
+//         console.log(this.name + " is eating banana! " + this.color); 
+//     }
+//     hide(){
+//         console.log(this.name + " is hiding! " + this.color);
+//     }
+// }
+
+// let ani = new Animal("cow", "white");
+// let m = new Monkey("chimpu", "brown");
+
+// ani.run();
+// ani.shout();
+// m.bananaEat();
+// m.run()
+// m.hide();
+// ani.hide(); //this will throw an error
