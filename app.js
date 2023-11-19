@@ -1147,3 +1147,22 @@ excesting string not change, New string return*/
 
 // e.login();
 // e.requestLeaves(10);
+
+
+// Topic 06: | static Method in JS:
+
+// class Animal{
+//     constructor(name){
+//         this.name = Animal.captilize(name);
+//     }
+//     run(){
+//         console.log( "Animal " + this.name + " is barking!");
+//     }
+//     static captilize(name){
+//         return name.charAt(0).toUpperCase() + name.slice(1);
+//     }
+// }
+
+// j = new Animal("jack");
+// j.run();
+// console.log(j.captilize("this")) --> this does not work:
