@@ -1204,3 +1204,26 @@ excesting string not change, New string return*/
 // console.log(w instanceof Rabbit);
 // console.log(c instanceof Animal);
 
+
+// chapter NO : 12 | Advance Javacript :
+
+// Topic 01: | IIFE: Immediately Invoked Function Expressions in JS:
+
+// let p = ()=>{
+//     return new Promise((resolve, reject) =>{
+//         setTimeout(() => {
+//             resolve("done");
+//         }, 2000);
+//     })
+// }
+
+// (async()=>{
+//     let a = await p();
+//     console.log(a);
+//     let b = await p();
+//     console.log(b);
+//     let c = await p();
+//     console.log(c);
+//     let d = await p();
+//     console.log(d);
+// })()
