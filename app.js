@@ -1166,3 +1166,41 @@ excesting string not change, New string return*/
 // j = new Animal("jack");
 // j.run();
 // console.log(j.captilize("this")) --> this does not work:
+
+
+// Topic 07: | getter, setter and instance of Method in JS:
+
+// class Animal{
+//     constructor(name){
+//         this._name = name;
+//     }
+//     fly(){
+//         console.log(this.name + " is flying!");
+//     }
+//     get name(){
+//         return this._name;
+//     }
+//     set name(newName){
+//         this._name = newName;
+//     }    
+// }
+// class Rabbit extends Animal(){
+//     run(){
+//         console.log("running...");
+//     }
+// }
+
+// let w = new Rabbit("jack");
+// let j = new Animal("jack");
+
+// j.fly();
+// console.log(j.name);
+// j.name = "jill";
+// console.log(j.name);
+
+// let c = 45
+
+// console.log(j instanceof Animal);
+// console.log(w instanceof Rabbit);
+// console.log(c instanceof Animal);
+
