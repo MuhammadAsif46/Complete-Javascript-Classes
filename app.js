@@ -1,3 +1,22 @@
+//////////// JSON.Stringify | JSON.Parse  ///////////////
+// Json.stringify: valid javascript object convert to string: 
+// Json.parse: valid json string convert to js object: 
+
+let json = {
+    userName:"John",
+    channel:"Ten Sports",
+    className:"B.com"
+}
+
+let myJson = JSON.stringify(json);
+console.log(myJson);
+
+myJson = myJson.replace("John", "Asif");
+console.log(myJson);
+
+let myNewJson = JSON.parse(myJson);
+console.log(myNewJson);
+
 ////////*******  CASE SENSITIVE  **********///////////
 
 // CHAPTER NO : 01 | Introduction Javascript
