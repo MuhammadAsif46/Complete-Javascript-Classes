@@ -1,6 +1,6 @@
 //////////// JSON.Stringify | JSON.Parse  ///////////////
-// Json.stringify: valid javascript object convert to string: 
-// Json.parse: valid json string convert to js object: 
+// Json.stringify: valid javascript object convert to string:
+// Json.parse: valid json string convert to js object:
 
 // let json = {
 //     userName:"John",
@@ -980,7 +980,6 @@ excesting string not change, New string return*/
 // document.cookie = "name2=hello world112211"
 // console.log(document.cookie);
 
-
 // Topic 04: | localStorage in JS:
 
 //local storage store data in string format both keys and values:
@@ -1023,9 +1022,7 @@ excesting string not change, New string return*/
 // localStorage.key(4)
 // '1'
 
-
 // Topic 05: | sessionStorage in JS:
-
 
 // sessionStorage.setItem("name", "session");
 // sessionStorage.getItem("name");
@@ -1037,14 +1034,13 @@ excesting string not change, New string return*/
 //     console.log(e);
 // }
 
-
 // chapter NO : 11 | Object Oriented Programming in JS:
 
 // Topic 01: | Oops:- pillars in JS:
 
-//1. abstraction, 
-//2. encapsulation, 
-//3. inheritance, 
+//1. abstraction,
+//2. encapsulation,
+//3. inheritance,
 //4. polymorphism.
 
 // Topic 02: | prototype/ __proto__ in JS:
@@ -1067,7 +1063,6 @@ excesting string not change, New string return*/
 // a.__proto__ = p
 // a.run()
 // console.log(a.name2);
-
 
 // Topic 03: | class and object in JS:
 
@@ -1100,7 +1095,6 @@ excesting string not change, New string return*/
 // message2.submit()
 // message2.cancel()
 
-
 // Topic 04: | Inheritance in JS:
 
 // class Animal{
@@ -1119,7 +1113,7 @@ excesting string not change, New string return*/
 
 // class Monkey extends Animal{
 //     bananaEat(){
-//         console.log(this.name + " is eating banana! " + this.color); 
+//         console.log(this.name + " is eating banana! " + this.color);
 //     }
 //     hide(){
 //         console.log(this.name + " is hiding! " + this.color);
@@ -1135,7 +1129,6 @@ excesting string not change, New string return*/
 // m.run()
 // m.hide();
 // ani.hide(); //this will throw an error
-
 
 // Topic 05: | constructors/ super in JS:
 
@@ -1167,7 +1160,6 @@ excesting string not change, New string return*/
 // e.login();
 // e.requestLeaves(10);
 
-
 // Topic 06: | static Method in JS:
 
 // class Animal{
@@ -1186,7 +1178,6 @@ excesting string not change, New string return*/
 // j.run();
 // console.log(j.captilize("this")) --> this does not work:
 
-
 // Topic 07: | getter, setter and instance of Method in JS:
 
 // class Animal{
@@ -1201,7 +1192,7 @@ excesting string not change, New string return*/
 //     }
 //     set name(newName){
 //         this._name = newName;
-//     }    
+//     }
 // }
 // class Rabbit extends Animal(){
 //     run(){
@@ -1222,7 +1213,6 @@ excesting string not change, New string return*/
 // console.log(j instanceof Animal);
 // console.log(w instanceof Rabbit);
 // console.log(c instanceof Animal);
-
 
 // chapter NO : 12 | Advance Javacript :
 
@@ -1246,8 +1236,6 @@ excesting string not change, New string return*/
 //     let d = await p();
 //     console.log(d);
 // })()
-
-
 
 // Topic 02: | Destructring and spread operator in JS:
 
@@ -1282,10 +1270,9 @@ excesting string not change, New string return*/
 //     address:"xyz"
 // }
 
-// console.log({...obj}); 
+// console.log({...obj});
 // console.log({...obj, name:"asif", age:50}); // this object changing values
 // console.log({ name:"asif", age:50, ...obj });// this obj print without changing values
-
 
 // Topic 03: | Block, Global and Function Scope in JS:
 
@@ -1299,16 +1286,15 @@ excesting string not change, New string return*/
 
 // function az(){
 //     let a1 = 8;    //local
-//     console.log(a1); 
+//     console.log(a1);
 // }
 // az()
 // console.log(a1);
 
-
 // Topic 04: | Hoisting in JS:
 
 // console.log(a);
-// var a = 12;              //VAR 
+// var a = 12;              //VAR
 // console.log(a);
 
 // console.log(a);
@@ -1320,7 +1306,6 @@ excesting string not change, New string return*/
 //     console.log("number");   Const
 // }
 // num()
-
 
 // Topic 05: | Closures in JS:
 
