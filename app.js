@@ -1320,3 +1320,27 @@ excesting string not change, New string return*/
 //     console.log("number");   Const
 // }
 // num()
+
+
+// Topic 05: | Closures in JS:
+
+// Topic 06: | Arrow Function Revised in JS:
+
+// const hey = name => console.log("hello " + name);
+// hey("asif")
+
+// const hey = (name, greet) => console.log(greet + " " + name);
+// hey("asif","ahmed")
+
+// const x ={
+//     name:"asif",
+//     age:30,
+//     role:"js developer",
+//     show: function(){
+//         setTimeout(()=>{
+//             console.log(`the name is ${this.name}\n the role is ${this.role}`);
+//         },2000)
+//     }
+// }
+
+// x.show()
