@@ -1303,3 +1303,20 @@ excesting string not change, New string return*/
 // }
 // az()
 // console.log(a1);
+
+
+// Topic 04: | Hoisting in JS:
+
+// console.log(a);
+// var a = 12;              //VAR 
+// console.log(a);
+
+// console.log(a);
+// let a = 12;              //LET
+// console.log(a);
+
+// num()
+// const  num =( )=>{
+//     console.log("number");   Const
+// }
+// num()
