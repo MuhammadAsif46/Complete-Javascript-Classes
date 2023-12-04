@@ -2,20 +2,20 @@
 // Json.stringify: valid javascript object convert to string: 
 // Json.parse: valid json string convert to js object: 
 
-let json = {
-    userName:"John",
-    channel:"Ten Sports",
-    className:"B.com"
-}
+// let json = {
+//     userName:"John",
+//     channel:"Ten Sports",
+//     className:"B.com"
+// }
 
-let myJson = JSON.stringify(json);
-console.log(myJson);
+// let myJson = JSON.stringify(json);
+// console.log(myJson);
 
-myJson = myJson.replace("John", "Asif");
-console.log(myJson);
+// myJson = myJson.replace("John", "Asif");
+// console.log(myJson);
 
-let myNewJson = JSON.parse(myJson);
-console.log(myNewJson);
+// let myNewJson = JSON.parse(myJson);
+// console.log(myNewJson);
 
 ////////*******  CASE SENSITIVE  **********///////////
 
@@ -1246,3 +1246,42 @@ excesting string not change, New string return*/
 //     let d = await p();
 //     console.log(d);
 // })()
+
+
+
+// Topic 02: | Destructring and spread operator in JS:\
+
+// let arr = [1,2,3];
+// let [a,b,c] = arr;
+// console.log(a,b,c);
+
+// let arr = [1,2,3,4,5,6,7,8,9];
+// let [a,b,c, ...rest] = arr;
+// console.log(a,b,c,rest);
+
+// let {a, b} = {a:2, b:4};
+// console.log(a,b);
+
+// Spread Opertor:
+
+// let arr = [5,6,7];
+// let obj = {...arr};
+// console.log(obj);
+
+// function sum(n1,n2,n3) {
+//     return n1 + n2 + n3
+// }
+
+// console.log(sum(...arr));
+
+//spread react using example:
+
+let obj = {
+    name:"hello",
+    age:20,
+    address:"xyz"
+}
+
+console.log({...obj}); 
+console.log({...obj, name:"asif", age:50}); // this object changing values
+console.log({ name:"asif", age:50, ...obj });// this obj print without changing values
