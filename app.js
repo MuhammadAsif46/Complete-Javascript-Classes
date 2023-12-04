@@ -1249,7 +1249,7 @@ excesting string not change, New string return*/
 
 
 
-// Topic 02: | Destructring and spread operator in JS:\
+// Topic 02: | Destructring and spread operator in JS:
 
 // let arr = [1,2,3];
 // let [a,b,c] = arr;
@@ -1276,12 +1276,30 @@ excesting string not change, New string return*/
 
 //spread react using example:
 
-let obj = {
-    name:"hello",
-    age:20,
-    address:"xyz"
-}
+// let obj = {
+//     name:"hello",
+//     age:20,
+//     address:"xyz"
+// }
 
-console.log({...obj}); 
-console.log({...obj, name:"asif", age:50}); // this object changing values
-console.log({ name:"asif", age:50, ...obj });// this obj print without changing values
+// console.log({...obj}); 
+// console.log({...obj, name:"asif", age:50}); // this object changing values
+// console.log({ name:"asif", age:50, ...obj });// this obj print without changing values
+
+
+// Topic 03: | Block, Global and Function Scope in JS:
+
+// let a = 10; //global
+
+// {
+//     let a1 = 10;    //local
+//     console.log(a); //10
+// }
+// console.log(a); //10
+
+// function az(){
+//     let a1 = 8;    //local
+//     console.log(a1); 
+// }
+// az()
+// console.log(a1);
